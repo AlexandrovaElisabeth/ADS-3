@@ -8,11 +8,13 @@ if (arr[mid] == value)
 {count++;
 for (int i = mid - 1; i >= left; i--)
 {if (arr[i] == value) {count++;}
-else break;
+else 
+{break;}
 }
 for (int i = mid + 1; i <= right; i++)
 {if (arr[i] == value) {count++;}
-else {break;}
+else 
+{break;}
 }
 return count;
 }
