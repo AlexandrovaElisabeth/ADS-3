@@ -17,9 +17,10 @@ else
 {break;}
 }
 return count;
-}else if (arr[mid] < value)
+} else if (arr[mid] < value)
 {left = mid + 1;}
-else {right = mid - 1;}
+else 
+{right = mid - 1;}
 }
 return 0;
 }
