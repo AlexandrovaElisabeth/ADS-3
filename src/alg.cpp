@@ -8,17 +8,16 @@ if (arr[mid] == value)
 {count++;
 for (int i = mid - 1; i >= left; i--)
 {if (arr[i] == value) {count++;}
-else 
+else
 {break;}
 }
 for (int i = mid + 1; i <= right; i++)
 {if (arr[i] == value) {count++;}
-else 
+else
 {break;}
 }
 return count;
-}
-else if (arr[mid] < value)
+}else if (arr[mid] < value)
 {left = mid + 1;}
 else {right = mid - 1;}
 }
