@@ -22,6 +22,4 @@ left = mid + 1;}
 else
 {right = mid - 1;}
 }
-if (count == 0) {return 0;}
-return -1;
 }
